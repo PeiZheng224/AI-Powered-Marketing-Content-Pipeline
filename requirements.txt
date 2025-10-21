@@ -1,0 +1,21 @@
+# -------------------------------------------------------------------------
+# Required Python Packages for the AI Marketing Content Pipeline Project
+# -------------------------------------------------------------------------
+
+# PHASE 1: AI Content Generation (The "Brain")
+# Choose ONE AI SDK based on your preference (e.g., Gemini or OpenAI).
+# Uncomment the one you choose.
+
+# Google GenAI SDK (Recommended for structured output/JSON mode):
+google-genai 
+
+# OpenAI SDK:
+# openai
+
+# PHASE 2 & 3: CRM Distribution, Performance Simulation, and Data Storage
+# Used for making HTTP requests (e.g., interacting with HubSpot or other CRM APIs).
+requests  
+
+# Used for data manipulation and analysis (helpful for Phase 3 logging/reporting).
+# Although not strictly necessary for simple logging, it is standard practice.
+pandas    
